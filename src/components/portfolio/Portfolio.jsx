@@ -60,7 +60,7 @@ function Portfolio() {
         </article>
         <article className="portfolio_item">
           <div className="portfolio_item-image">
-          <img src={IMG3} alt="i2"/>
+          <img src={IMG3} alt="i3"/>
           </div>
           <h3>covid Tracker</h3>
           <div className="portfolio_item-cta">
@@ -83,7 +83,7 @@ function Portfolio() {
         </article>
         <article className="portfolio_item">
           <div className="portfolio_item-image">
-          <img src={IMG4} alt="i2"/>
+          <img src={IMG4} alt="i4"/>
           </div>
           <h3>Blog_web</h3>
           <div className="potfoilo_item-cta">

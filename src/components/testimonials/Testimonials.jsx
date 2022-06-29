@@ -6,15 +6,15 @@ import Avt3 from "../../assets/avtar3.png";
 import Avt4 from "../../assets/avtar4.png";
 
 // import Swiper core and required modules
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+import {  Pagination} from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
 import 'swiper/css';
-import 'swiper/css/navigation';
+// import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
+// import 'swiper/css/scrollbar';
 
 
 //dynamically
@@ -63,7 +63,7 @@ function Testimonials() {
             return(
               <SwiperSlide key={index} className="testimonials">
               <div className="client_avtar">
-                <img src={avtar} />
+                <img src={avtar} alt=""/>
                 <h5 className="clients-name">{name}</h5>
                 </div>
                 <small className="clients-review">
