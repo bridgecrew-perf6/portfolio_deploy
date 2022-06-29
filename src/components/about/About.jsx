@@ -2,7 +2,7 @@ import React from "react";
 import "./about.css";
 import ME from "../../assets/me-about1.jpeg";
 import { BsAward } from "react-icons/bs";
-import { FiUsers } from "react-icons/fi";
+// import { FiUsers } from "react-icons/fi";
 import { BsFillCollectionFill } from "react-icons/bs";
 import { VscFolderLibrary } from "react-icons/vsc";
 const About = () => {
